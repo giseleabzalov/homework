@@ -27,3 +27,10 @@ function arraySq (arrayNumbers) {
 }
 console.log(arraySq(arrayNumbers))
 
+const object {
+    firstName: "Gisele",
+    lastName: "Abzalov",
+    age: 39
+    confidence: F
+}
+function 
