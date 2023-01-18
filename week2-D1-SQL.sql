@@ -27,3 +27,15 @@ INSERT INTO actor values ("2", "Game of Thrones", "Maisie", "Williams", "Arya St
 INSERT INTO actor value ("3", "Sex and the City", "Kim", "Cattrall", "Samantha Jones");
 
 SELECT character_played FROM actor;
+
+CREATE TABLE favdishes (
+    ID INT Primary Key not null auto_increment,
+    dishes VARCHAR (30),
+    cuisine VARCHAR (30)
+);
+
+INSERT INTO favdishes values ("1", "Grilled Octopus", "Mediterranean");
+
+INSERT INTO favdishes values ("2", "Borsh", "Russian");
+
+INSERT INTO favdishes values ("3", "Caprese salad", "Italian")
